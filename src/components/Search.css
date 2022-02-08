@@ -1,0 +1,19 @@
+.searech__title{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+}
+.Search{
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search__text{
+    font-size: 16px;
+    line-height: 140%;
+    color: #E0E6E9;
+   
+}
