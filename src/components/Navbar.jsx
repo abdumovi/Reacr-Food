@@ -6,8 +6,6 @@ import { BsPatchCheck } from "react-icons/bs";
 import { AiOutlinePieChart, AiOutlineSetting } from "react-icons/ai";
 import { IoExitOutline } from "react-icons/io5";
 
-
-
 import './Navbar.css';
 const Navbar = () => {
     const chengeActive = (e) =>  e.isActive ? 'nav__active nav__link' : 'nav__link';
@@ -54,5 +52,4 @@ const Navbar = () => {
         </nav>
     )
 }
-
 export { Navbar }

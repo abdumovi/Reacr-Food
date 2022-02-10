@@ -1,6 +1,74 @@
 .Rigiht{
-    height: 95vh;
+    position: relative;
+    height: 100vh;
     width: 400px;
-    padding: 24px;
     background-color: aqua;
+}
+.rigiht__order{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: inherit;
+    background-color: #1F1D2B;
+    height: 100vh;
+}
+.right__order-all{
+    padding: 24px;
+    height: 100vh;
+}
+.order__title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 24px;  
+}
+.order__button{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #EA7C69;
+    padding: 7px 12px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid #393C49;
+    border-radius: 8px;
+    cursor: pointer;     
+}
+.order-activ{
+    background-color: #EA7C69;
+    color: #FFFFFF;
+}
+.order__list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.order__item{
+    margin-right: 8px;
+}
+.order__texts{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+   
+    
+}
+.order__texts span{
+    text-align: end;
+    margin-left: 43px;
+}
+.order__cards{
+    height: 70vh;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    overflow-y: scroll;
+    border-top: 1px solid #393C49;
+    border-bottom: 1px solid #393C49;
+}
+
+.order__cards::-webkit-scrollbar{
+    display: none;
 }

@@ -1,7 +1,5 @@
-.mainElement{
-    display: flex;
-}
+
 .mainSection{
-    flex-grow: 1;
+    
     padding: 24px 24px 24px 116px;
 }

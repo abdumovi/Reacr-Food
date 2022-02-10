@@ -1,9 +1,9 @@
 import React from 'react'
-
+import { Search } from '../components'
 const Setting = () => {
     return (
         <div>
-            Setting
+           <Search title='Settings' />
         </div>
     )
 }

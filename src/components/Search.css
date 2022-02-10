@@ -17,3 +17,27 @@
     color: #E0E6E9;
    
 }
+.search__input{
+    background: #2D303E;
+    border: 1px solid #393C49;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 14px 14px 14px 42px;
+    border: none;
+    outline: none;
+    position: relative;
+    color: #FFFFFF;
+}
+.search__form{
+    position: relative;
+}
+.search__form::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    left: 14px;
+    transform: translateY(50%);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url('../assets/icons/search.png');
+}

@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { Search } from '../components';
+import { Main } from '../container';
 
 const Dashboard = () => {
     return (
         <div>
-            Dashboard
+           <Search text title='Dashboard' />
+           <Main/>
         </div>
     )
 }

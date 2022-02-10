@@ -1,0 +1,29 @@
+.main__title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+    
+}
+.main__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.main__block{
+    margin-top: 34px;
+    padding-bottom: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main__select{
+    border: none;
+    background-color: #1F1D2B;
+    border: 1px solid #393C49;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 14px;
+    outline: none;
+}

@@ -1,0 +1,35 @@
+.siteBar__list{
+    max-width: 481px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.siteBar__item{
+    margin-bottom: 13px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.siteBar__item:hover{
+
+    color: #EA7C69;
+}
+.siteBar__list{
+    border-bottom: 1px solid #393C49;
+}
+.ac-br{
+    color: #EA7C69;
+    position: relative;
+}
+.ac-br::before{
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 3px;
+    background-color: #EA7C69;
+    border-radius: 20px;
+    bottom: -15px;
+}
